@@ -12,8 +12,8 @@ CCPBioSim Documentation
 CCPBioSim is the Collaborative Computational Project for Biomolecular
 Simulation. This page links to the documentation for each of our projects.
 For news and events, see `ccpbiosim.org <https://www.ccpbiosim.org/>`_, and
-for guides on developing CCPBioSim software, see the
-`developer resources <https://ccpbiosim.github.io/>`_.
+for guides on developing CCPBioSim software, see
+:doc:`Making New Software <new-software>`.
 
 Scientific Software
 -------------------
@@ -205,7 +205,8 @@ Developer Tools
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/ccpbiosim-sphinx-theme>`
 
    .. grid-item-card:: Python-Template
-      :link: https://ccpbiosim-python-template.readthedocs.io/
+      :link: new-software
+      :link-type: doc
       :text-align: center
 
       .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
@@ -222,3 +223,44 @@ Developer Tools
 
       +++
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/Python-Template>`
+
+   .. grid-item-card:: Software Dashboard
+      :link: software-dash
+      :link-type: doc
+      :text-align: center
+
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-dark
+
+      The status of each CCPBioSim software project.
+
+   .. grid-item-card:: Workshop Dashboard
+      :link: workshops-dash
+      :link-type: doc
+      :text-align: center
+
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-dark
+
+      The status of the CCPBioSim training containers.
+
+.. toctree::
+   :hidden:
+
+   New Software <new-software>
+   Software <software-dash>
+   Workshops <workshops-dash>

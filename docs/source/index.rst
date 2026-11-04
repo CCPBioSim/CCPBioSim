@@ -228,7 +228,15 @@ Developer Tools
       :link-type: doc
       :text-align: center
 
-      :octicon:`rocket;96px;sd-text-primary`
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-dark
 
       How to start a new CCPBioSim project from the Python-Template.
 
@@ -237,7 +245,15 @@ Developer Tools
       :link-type: doc
       :text-align: center
 
-      :octicon:`graph;96px;sd-text-primary`
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-dark
 
       The status of each CCPBioSim software project.
 
@@ -246,7 +262,15 @@ Developer Tools
       :link-type: doc
       :text-align: center
 
-      :octicon:`mortar-board;96px;sd-text-primary`
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-dark
 
       The status of the CCPBioSim training containers.
 

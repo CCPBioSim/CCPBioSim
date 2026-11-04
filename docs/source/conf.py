@@ -20,9 +20,9 @@ copyright_year_string = (
 copyright = f"{copyright_year_string}, {copyright_owners}. All rights reserved"
 
 # -- General configuration ---------------------------------------------------
-extensions = []
+extensions = ["myst_parser"]
 
-source_suffix = ".rst"
+source_suffix = [".rst", ".md"]
 master_doc = "index"
 language = "en"
 

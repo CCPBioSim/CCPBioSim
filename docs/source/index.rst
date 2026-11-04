@@ -205,7 +205,8 @@ Developer Tools
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/ccpbiosim-sphinx-theme>`
 
    .. grid-item-card:: Python-Template
-      :link: https://ccpbiosim-python-template.readthedocs.io/
+      :link: new-software
+      :link-type: doc
       :text-align: center
 
       .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
@@ -222,23 +223,6 @@ Developer Tools
 
       +++
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/Python-Template>`
-
-   .. grid-item-card:: Making New Software
-      :link: new-software
-      :link-type: doc
-      :text-align: center
-
-      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
-         :alt: Python-Template logo
-         :height: 120px
-         :class: only-light
-
-      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
-         :alt: Python-Template logo
-         :height: 120px
-         :class: only-dark
-
-      How to start a new CCPBioSim project from the Python-Template.
 
    .. grid-item-card:: Software Dashboard
       :link: software-dash

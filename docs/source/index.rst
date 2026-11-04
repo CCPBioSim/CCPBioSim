@@ -12,8 +12,8 @@ CCPBioSim Documentation
 CCPBioSim is the Collaborative Computational Project for Biomolecular
 Simulation. This page links to the documentation for each of our projects.
 For news and events, see `ccpbiosim.org <https://www.ccpbiosim.org/>`_, and
-for guides on developing CCPBioSim software, see the
-`developer resources <https://ccpbiosim.github.io/>`_.
+for guides on developing CCPBioSim software, see
+:doc:`Making New Software <new-software>`.
 
 Scientific Software
 -------------------
@@ -222,3 +222,37 @@ Developer Tools
 
       +++
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/Python-Template>`
+
+   .. grid-item-card:: Making New Software
+      :link: new-software
+      :link-type: doc
+      :text-align: center
+
+      :octicon:`rocket;96px;sd-text-primary`
+
+      How to start a new CCPBioSim project from the Python-Template.
+
+   .. grid-item-card:: Software Dashboard
+      :link: software-dash
+      :link-type: doc
+      :text-align: center
+
+      :octicon:`graph;96px;sd-text-primary`
+
+      The status of each CCPBioSim software project.
+
+   .. grid-item-card:: Workshop Dashboard
+      :link: workshops-dash
+      :link-type: doc
+      :text-align: center
+
+      :octicon:`mortar-board;96px;sd-text-primary`
+
+      The status of the CCPBioSim training containers.
+
+.. toctree::
+   :hidden:
+
+   New Software <new-software>
+   Software <software-dash>
+   Workshops <workshops-dash>

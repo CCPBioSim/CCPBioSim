@@ -1,61 +1,120 @@
 :html_theme.sidebar_secondary.remove:
 
-CCPBioSim-Python-Template
-=========================
-
-.. Banner for the home page. Add your logos to _static/logos/ and set
-   :logo-light: (dark text, for light mode) and :logo-dark: (white text, for
-   dark mode). See https://ccpbiosim-sphinx-theme.readthedocs.io/
+CCPBioSim Documentation
+=======================
 
 .. ccpbiosim-hero::
-   :tagline: CCPBioSim-Python-Template
-   :button: reference/example_package/index | API reference
-   :github: CCPBioSim/Python-Template
+   :logo-light: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+   :logo-dark: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+   :logo-alt: CCPBioSim
+   :tagline: Documentation for CCPBioSim software
 
-   Short description of your package
+CCPBioSim is the Collaborative Computational Project for Biomolecular
+Simulation. This page links to the documentation for each of our projects.
+For news and events, see `ccpbiosim.org <https://www.ccpbiosim.org/>`_, and
+for guides on developing CCPBioSim software, see the
+`developer resources <https://ccpbiosim.github.io/>`_.
 
-Add an introduction to your package here. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details on writing pages.
+Simulation and analysis
+-----------------------
 
-Quick start
------------
-
-.. tab-set::
-
-   .. tab-item:: pip
-
-      .. code-block:: bash
-
-         pip install example_package
-
-   .. tab-item:: Conda
-
-      .. code-block:: bash
-
-         conda install -c conda-forge -c ccpbiosim example_package
-
-Explore the documentation
--------------------------
-
-.. Add a card for each section of your documentation.
-
-.. grid:: 1 2 2 2
+.. grid:: 1 2 3 3
    :gutter: 3
 
-   .. grid-item-card:: 📖 API Reference
-      :link: reference/example_package/index
-      :link-type: doc
+   .. grid-item-card:: 📊 CodeEntropy
 
-      Reference for the example_package package.
+      Configurational entropy from molecular dynamics simulations.
 
-   .. grid-item-card:: 💻 Source Code
-      :link: https://github.com/CCPBioSim/Python-Template
+      +++
+      :bdg-link-primary:`Docs <https://codeentropy.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/CodeEntropy>`
 
-      The repository on GitHub.
+   .. grid-item-card:: 🧩 prepmd
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
+      Prepare PDB and mmCIF structures for molecular dynamics.
 
-   API Reference <reference/example_package/index>
+      +++
+      :bdg-link-primary:`Docs <https://prepmd.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/prepmd>`
+
+   .. grid-item-card:: 🧬 SIST
+
+      Stress-induced structural transitions in superhelical DNA.
+
+      +++
+      :bdg-link-primary:`Docs <https://sist.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/SIST>`
+
+Workflows with AiiDA
+--------------------
+
+.. grid:: 1 2 3 3
+   :gutter: 3
+
+   .. grid-item-card:: ⚙️ aiida-amber
+
+      AiiDA plugin for running Amber simulations.
+
+      +++
+      :bdg-link-primary:`Docs <https://aiida-amber.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/aiida-amber>`
+
+   .. grid-item-card:: ⚙️ aiida-gromacs
+
+      AiiDA plugin for running GROMACS simulations.
+
+      +++
+      :bdg-link-primary:`Docs <https://aiida-gromacs.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/aiida-gromacs>`
+
+Simulation data
+---------------
+
+.. grid:: 1 2 3 3
+   :gutter: 3
+
+   .. grid-item-card:: 🔍 biosim-extractor
+
+      Extract simulation metadata from MD output files.
+
+      +++
+      :bdg-link-primary:`Docs <https://biosim-extractor.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosim-extractor>`
+
+   .. grid-item-card:: 📐 biosim-schema
+
+      LinkML schema for biomolecular simulation metadata.
+
+      +++
+      :bdg-link-primary:`Docs <https://biosim-schema.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosim-schema>`
+
+   .. grid-item-card:: 🗄️ biosimdb-interface
+
+      Extract and upload simulation data to BioSimDB.
+
+      +++
+      :bdg-link-primary:`Docs <https://biosimdb-interface.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosimdb-interface>`
+
+For developers
+--------------
+
+.. grid:: 1 2 3 3
+   :gutter: 3
+
+   .. grid-item-card:: 🎨 ccpbiosim-sphinx-theme
+
+      The Sphinx theme used for all CCPBioSim documentation.
+
+      +++
+      :bdg-link-primary:`Docs <https://ccpbiosim-sphinx-theme.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/ccpbiosim-sphinx-theme>`
+
+   .. grid-item-card:: 📦 Python-Template
+
+      A starting point for new CCPBioSim Python projects.
+
+      +++
+      :bdg-link-primary:`Docs <https://ccpbiosim-python-template.readthedocs.io/>`
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/Python-Template>`

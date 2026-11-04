@@ -15,106 +15,210 @@ For news and events, see `ccpbiosim.org <https://www.ccpbiosim.org/>`_, and
 for guides on developing CCPBioSim software, see the
 `developer resources <https://ccpbiosim.github.io/>`_.
 
-Simulation and analysis
------------------------
+Scientific Software
+-------------------
 
 .. grid:: 1 2 3 3
    :gutter: 3
 
-   .. grid-item-card:: 📊 CodeEntropy
+   .. grid-item-card:: prepmd
+      :link: https://prepmd.readthedocs.io/
+      :text-align: center
 
-      Configurational entropy from molecular dynamics simulations.
+      .. image:: _static/logos/projects/prepmd-logo-black.png
+         :alt: prepmd logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/prepmd-logo-white.png
+         :alt: prepmd logo
+         :height: 120px
+         :class: only-dark
+
+      Automatically prepare structures from the PDB for molecular dynamics simulation.
 
       +++
-      :bdg-link-primary:`Docs <https://codeentropy.readthedocs.io/>`
-      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/CodeEntropy>`
-
-   .. grid-item-card:: 🧩 prepmd
-
-      Prepare PDB and mmCIF structures for molecular dynamics.
-
-      +++
-      :bdg-link-primary:`Docs <https://prepmd.readthedocs.io/>`
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/prepmd>`
 
-   .. grid-item-card:: 🧬 SIST
+   .. grid-item-card:: CodeEntropy
+      :link: https://codeentropy.readthedocs.io/
+      :text-align: center
+
+      .. image:: _static/logos/projects/biosim-codeentropy_logo_dark.png
+         :alt: CodeEntropy logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/biosim-codeentropy_logo_light.png
+         :alt: CodeEntropy logo
+         :height: 120px
+         :class: only-dark
+
+      Compute the entropy of macromolecular systems from forces sampled in MD simulations.
+
+      +++
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/CodeEntropy>`
+
+   .. grid-item-card:: SIST
+      :link: https://sist.readthedocs.io/
+      :text-align: center
+
+      .. image:: _static/logos/projects/SIST-logo-black-text.png
+         :alt: SIST logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/SIST-logo-white-text.png
+         :alt: SIST logo
+         :height: 120px
+         :class: only-dark
 
       Stress-induced structural transitions in superhelical DNA.
 
       +++
-      :bdg-link-primary:`Docs <https://sist.readthedocs.io/>`
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/SIST>`
 
-Workflows with AiiDA
---------------------
+Data Tools
+----------
 
 .. grid:: 1 2 3 3
    :gutter: 3
 
-   .. grid-item-card:: ⚙️ aiida-amber
+   .. grid-item-card:: aiida-amber
+      :link: https://aiida-amber.readthedocs.io/
+      :text-align: center
 
-      AiiDA plugin for running Amber simulations.
+      .. image:: _static/logos/projects/aiida-amber-logo.png
+         :alt: aiida-amber logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/aiida-amber-logo.png
+         :alt: aiida-amber logo
+         :height: 120px
+         :class: only-dark
+
+      AiiDA plugin to capture the full provenance of Amber simulations.
 
       +++
-      :bdg-link-primary:`Docs <https://aiida-amber.readthedocs.io/>`
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/aiida-amber>`
 
-   .. grid-item-card:: ⚙️ aiida-gromacs
+   .. grid-item-card:: aiida-gromacs
+      :link: https://aiida-gromacs.readthedocs.io/
+      :text-align: center
 
-      AiiDA plugin for running GROMACS simulations.
+      .. image:: _static/logos/projects/aiida-gromacs-logo.png
+         :alt: aiida-gromacs logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/aiida-gromacs-logo.png
+         :alt: aiida-gromacs logo
+         :height: 120px
+         :class: only-dark
+
+      AiiDA plugin to capture the full provenance of GROMACS simulations.
 
       +++
-      :bdg-link-primary:`Docs <https://aiida-gromacs.readthedocs.io/>`
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/aiida-gromacs>`
 
-Simulation data
+   .. grid-item-card:: biosim-schema
+      :link: https://biosim-schema.readthedocs.io/
+      :text-align: center
+
+      .. image:: _static/logos/projects/biosim-schema-logo-dark-text.png
+         :alt: biosim-schema logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/biosim-schema-logo-light-text.png
+         :alt: biosim-schema logo
+         :height: 120px
+         :class: only-dark
+
+      Data schema for biomolecular simulation metadata.
+
+      +++
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosim-schema>`
+
+   .. grid-item-card:: biosim-extractor
+      :link: https://biosim-extractor.readthedocs.io/
+      :text-align: center
+
+      .. image:: _static/logos/projects/biosim-extractor-logo-dark.png
+         :alt: biosim-extractor logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/biosim-extractor-logo-light.png
+         :alt: biosim-extractor logo
+         :height: 120px
+         :class: only-dark
+
+      Extract metadata from MD simulation outputs.
+
+      +++
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosim-extractor>`
+
+   .. grid-item-card:: biosimdb-interface
+      :link: https://biosimdb-interface.readthedocs.io/
+      :text-align: center
+
+      .. image:: _static/logos/projects/biosimdb-logo-black.png
+         :alt: biosimdb-interface logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/projects/biosimdb-logo-white.png
+         :alt: biosimdb-interface logo
+         :height: 120px
+         :class: only-dark
+
+      A web interface for extracting and uploading simulation metadata.
+
+      +++
+      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosimdb-interface>`
+
+Developer Tools
 ---------------
 
 .. grid:: 1 2 3 3
    :gutter: 3
 
-   .. grid-item-card:: 🔍 biosim-extractor
+   .. grid-item-card:: ccpbiosim-sphinx-theme
+      :link: https://ccpbiosim-sphinx-theme.readthedocs.io/
+      :text-align: center
 
-      Extract simulation metadata from MD output files.
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: ccpbiosim-sphinx-theme logo
+         :height: 120px
+         :class: only-light
 
-      +++
-      :bdg-link-primary:`Docs <https://biosim-extractor.readthedocs.io/>`
-      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosim-extractor>`
-
-   .. grid-item-card:: 📐 biosim-schema
-
-      LinkML schema for biomolecular simulation metadata.
-
-      +++
-      :bdg-link-primary:`Docs <https://biosim-schema.readthedocs.io/>`
-      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosim-schema>`
-
-   .. grid-item-card:: 🗄️ biosimdb-interface
-
-      Extract and upload simulation data to BioSimDB.
-
-      +++
-      :bdg-link-primary:`Docs <https://biosimdb-interface.readthedocs.io/>`
-      :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/biosimdb-interface>`
-
-For developers
---------------
-
-.. grid:: 1 2 3 3
-   :gutter: 3
-
-   .. grid-item-card:: 🎨 ccpbiosim-sphinx-theme
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: ccpbiosim-sphinx-theme logo
+         :height: 120px
+         :class: only-dark
 
       The Sphinx theme used for all CCPBioSim documentation.
 
       +++
-      :bdg-link-primary:`Docs <https://ccpbiosim-sphinx-theme.readthedocs.io/>`
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/ccpbiosim-sphinx-theme>`
 
-   .. grid-item-card:: 📦 Python-Template
+   .. grid-item-card:: Python-Template
+      :link: https://ccpbiosim-python-template.readthedocs.io/
+      :text-align: center
+
+      .. image:: _static/logos/CCPBioSim-logo-black-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-light
+
+      .. image:: _static/logos/CCPBioSim-logo-white-bottom-text.svg
+         :alt: Python-Template logo
+         :height: 120px
+         :class: only-dark
 
       A starting point for new CCPBioSim Python projects.
 
       +++
-      :bdg-link-primary:`Docs <https://ccpbiosim-python-template.readthedocs.io/>`
       :bdg-link-secondary-line:`GitHub <https://github.com/CCPBioSim/Python-Template>`

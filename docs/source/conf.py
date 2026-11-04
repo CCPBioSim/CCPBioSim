@@ -34,3 +34,4 @@ html_theme = "ccpbiosim_sphinx_theme"
 html_title = "CCPBioSim Documentation"
 html_context = {"github_repo": "CCPBioSim"}
 html_static_path = ["_static"]
+html_css_files = ["css/hub.css"]

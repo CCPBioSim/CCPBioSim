@@ -1,0 +1,6 @@
+/* The whole card links to the project docs, so lift the GitHub link above
+   the card link to keep it clickable. */
+.sd-card-footer a {
+  position: relative;
+  z-index: 2;
+}

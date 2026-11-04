@@ -2,25 +2,23 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Python Template Repository
+title: CCPBioSim Documentation
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
 authors:
-  - given-names: Firstname
-    family-names: Surname
-    email: you@example.com
-    affiliation: Institute
-    orcid: 'https://orcid.org/0000-0000-0000-0000'
-repository-code: 'https://github.com/CCPBioSim/Python-Template'
+  - given-names: Harry
+    family-names: Swift
+    email: harry.swift@stfc.ac.uk
+    affiliation: 'Scientific Computing Department, STFC Daresbury Laboratory, Warrington WA4 4AD, United Kingdom'
+    orcid: 'https://orcid.org/0009-0007-3323-753X'
+repository-code: 'https://github.com/CCPBioSim/CCPBioSim'
+url: 'https://ccpbiosim.readthedocs.io/'
 abstract: >-
-  A template repository for Python projects within the
-  CCPBioSim organisation
+  A central index of all CCPBioSim repositories, with links to
+  their documentation on Read the Docs.
 keywords:
-  - Template
-  - Python
-  - Package
+  - CCPBioSim
+  - documentation
 license: MIT
-version: 0.0.1
-date-released: '2025-12-10'
